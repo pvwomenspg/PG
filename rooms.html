@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms &amp; Tariff | PV Associates Women's PG</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
+                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
+                        gold: { 500: '#d97706', 600: '#b45309' }
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/photos.css">
+    <link rel="stylesheet" href="assets/site.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <script src="assets/header.js" defer></script>
+    <link rel="stylesheet" href="assets/rooms.css">
+    <link rel="stylesheet" href="assets/room-gallery.css">
+</head>
+
+<body class="bg-sage-50 text-slate-800 font-sans antialiased pb-20 md:pb-0" data-page="rooms">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-sage-100 shadow-sm">
+        <div class="site-header-inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html"
+                class="site-brand flex items-center space-x-3 focus:outline-none focus:ring-2 focus:ring-teal-600 rounded-lg">
+                <div
+                    class="w-10 h-10 rounded-xl bg-teal-800 flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    PV</div>
+                <div class="leading-tight">
+                    <span class="block font-bold text-lg text-teal-900">PV Associates</span>
+                    <span class="block text-[10px] font-semibold tracking-wider text-slate-500">WOMEN'S PG •
+                        MUGALIVAKKAM</span>
+                </div>
+            </a>
+
+            <nav class="site-header-nav rooms-nav hidden lg:flex items-center text-sm font-medium text-slate-600"
+                aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="rooms.html" aria-current="page">Rooms &amp; Tariff</a>
+                <a href="facilities.html">Facilities</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="site-header-actions rooms-header-actions hidden lg:flex items-center">
+                <a href="tel:7200060377"
+                    class="flex items-center space-x-2 text-teal-800 font-semibold text-sm hover:text-teal-700 bg-teal-50 px-4 py-2 rounded-lg border border-teal-100 transition">
+                    <i class="fa-solid fa-phone-volume text-gold-500"></i>
+                    <span>+91 72000 60377</span>
+                </a>
+                <a href="contact.html#visit-enquiry-form"
+                    class="bg-teal-800 hover:bg-teal-900 text-white text-sm font-medium px-5 py-2.5 rounded-lg shadow-sm transition"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a>
+            </div>
+
+            <button id="menu-btn" type="button" aria-label="Toggle navigation menu" aria-controls="mobile-menu"
+                aria-expanded="false" class="lg:hidden text-slate-700 focus:outline-none text-xl p-2"><i
+                    class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-sage-100 px-6 py-4 space-y-3 shadow-lg">
+            <a href="index.html" class="block text-slate-700 font-medium py-1">Home</a>
+            <a href="rooms.html" aria-current="page" class="block text-slate-700 font-medium py-1">Rooms &amp;
+                Tariff</a>
+            <a href="facilities.html" class="block text-slate-700 font-medium py-1">Facilities</a>
+            <a href="gallery.html" class="block text-slate-700 font-medium py-1">Gallery</a>
+            <a href="about-us.html" class="block text-slate-700 font-medium py-1">About Us</a>
+            <a href="contact.html" class="block text-slate-700 font-medium py-1">Contact</a>
+        
+            <div class="site-mobile-header-actions"><a href="tel:7200060377"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span>+91 72000 60377</span></a><a href="contact.html#visit-enquiry-form"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Rooms & pricing hero -->
+        <section class="rooms-top-hero rooms-page-section" aria-labelledby="rooms-page-heading">
+            <div class="rooms-top-grid">
+                <div class="rooms-top-copy">
+                    <p class="rooms-top-kicker">Rooms &amp; Pricing</p>
+                    <h1 id="rooms-page-heading">Find Your Space.<br>Choose Your <span>Comfort.</span></h1>
+                    <p class="rooms-top-lead">Explore our thoughtfully furnished twin-sharing and three-sharing rooms, designed for comfortable everyday living.</p>
+                    <ul class="rooms-top-highlights" aria-label="Room highlights">
+                        <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>Twin Sharing – 2 Residents</span></li>
+                        <li><i class="fa-solid fa-user-group" aria-hidden="true"></i><span>Three Sharing – 3 Residents</span></li>
+                        <li><i class="fa-solid fa-snowflake" aria-hidden="true"></i><span>AC Rooms</span></li>
+                        <li><i class="fa-solid fa-shower" aria-hidden="true"></i><span>Attached Bathrooms</span></li>
+                    </ul>
+                    
+                    <div class="rooms-top-actions">
+                        <a class="rooms-top-button rooms-top-button-primary" href="#room-gallery-heading"><i
+                                class="fa-solid fa-bed" aria-hidden="true"></i>Explore Room Options</a>
+                        <a class="rooms-top-button rooms-top-button-secondary"
+                            href="https://wa.me/917200060377?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20rooms%20at%20PV%20Associates%20Women%27s%20PG."
+                            target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"
+                                aria-hidden="true"></i>Enquire on WhatsApp</a>
+                    </div>
+                    <p class="rooms-top-opening">Opening on 8 November 2026</p>
+                </div>
+                <div class="rooms-top-photo">
+                    <img src="assets/rooms-hero-ai.jpg" alt="AI-generated illustration of a comfortable furnished twin-sharing bedroom"
+                        width="800" height="600" fetchpriority="high" decoding="async">
+                    <div class="rooms-top-photo-note"><span class="rooms-top-stars" aria-hidden="true">✦ ✦
+                            ✦</span><strong>Comfortable &amp; secure</strong><span>Furnished AC accommodation in
+                            Mugalivakkam</span></div>
+                    <span class="rooms-top-photo-label">Twin-sharing room</span>
+                </div>
+                <ul class="rooms-top-stats" aria-label="Room availability">
+                    <li><i class="fa-solid fa-door-open" aria-hidden="true"></i><span><strong>16</strong><small>Total
+                                rooms</small></span></li>
+                    <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span><strong>14</strong><small>Twin-sharing
+                                rooms</small></span></li>
+                    <li><i class="fa-solid fa-user-group"
+                            aria-hidden="true"></i><span><strong>2</strong><small>Three-sharing rooms</small></span>
+                    </li>
+                    <li><i class="fa-solid fa-indian-rupee-sign"
+                            aria-hidden="true"></i><span><strong>₹13,000</strong><small>Per person /
+                                month</small></span></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Room types and galleries -->
+        <section class="room-showcase room-types-showcase rooms-page-section" aria-labelledby="room-gallery-heading">
+            <div class="rooms-wrap">
+                <div class="room-showcase-heading room-showcase-heading-rich">
+                    <div>
+                        <p class="rooms-eyebrow">Our rooms <span aria-hidden="true"></span></p>
+                        <h2 id="room-gallery-heading">Room Types &amp; <strong>Galleries</strong></h2>
+                        <p class="room-showcase-intro">Clean, comfortable and well-furnished rooms for a safe and
+                            peaceful stay.</p>
+                    </div>
+                    <ul class="room-gallery-amenities" aria-label="Room amenities">
+                        <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>AC Rooms</span></li>
+                        <li><i class="fa-solid fa-wifi" aria-hidden="true"></i><span>Wi-Fi Access</span></li>
+                        <li><i class="fa-solid fa-shower" aria-hidden="true"></i><span>Attached Bathroom</span></li>
+                        <li><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><span>Safe &amp; Secure</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="room-type-list">
+                <article class="room-type-row" aria-labelledby="twin-room-heading">
+                    <div class="room-type-details">
+                        <span class="room-type-icon"><i class="fa-solid fa-bed" aria-hidden="true"></i></span>
+                        <p class="room-type-kicker">Twin Sharing Rooms</p>
+                        <h3 id="twin-room-heading">Twin Sharing Rooms</h3>
+                        <p class="room-type-description">Spacious and comfortable rooms with modern amenities, ideal for
+                            students and working women.</p>
+                        <ul class="room-type-facts" aria-label="Twin-sharing room details">
+                            <li><i class="fa-solid fa-user-group" aria-hidden="true"></i><span>2 residents<br>per
+                                    room</span></li>
+                            <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>14 rooms<br>(28 beds
+                                    total)</span></li>
+                            <li><i class="fa-solid fa-snowflake" aria-hidden="true"></i><span>AC
+                                    Rooms<br>Available</span></li>
+                        </ul>
+                        <p class="room-type-price"><strong>₹13,000</strong><span>/ person / month</span></p>
+                        <div class="room-type-actions">
+                            <a class="room-type-gallery-link" href="gallery.html#property-gallery"><i
+                                    class="fa-regular fa-images" aria-hidden="true"></i>View Full Gallery</a>
+                            <a class="room-type-enquire-link"
+                                href="https://wa.me/917200060377?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20Twin%20Sharing%20at%20PV%20Associates%20Women%27s%20PG."
+                                target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"
+                                    aria-hidden="true"></i>Enquire Now</a>
+                        </div>
+                    </div>
+                    <div class="room-feature-gallery" data-room-carousel
+                        data-gallery-images='[{"src":"assets/two-1.webp","alt":"Twin-sharing room with two beds"},{"src":"assets/two-2.webp","alt":"Another view of the twin-sharing room"},{"src":"assets/two-3.webp","alt":"Twin-sharing room from another angle"},{"src":"assets/bathroom.webp","alt":"Attached bathroom"}]'
+                        role="group" tabindex="0"
+                        aria-label="Twin-sharing room photo gallery. Use left and right arrow keys to change photos.">
+                        <div class="room-feature-main">
+                            <a class="room-feature-main-link" href="assets/two-1.webp" data-photo
+                                aria-label="Open twin-sharing room photo 1"><img src="assets/two-1.webp"
+                                    alt="Twin-sharing room with two beds" width="800" height="600" loading="lazy"
+                                    decoding="async" data-gallery-main></a>
+                            <button class="room-feature-step room-feature-prev" type="button" data-gallery-step="-1"
+                                aria-label="Previous twin-sharing room photo"><i class="fa-solid fa-chevron-left"
+                                    aria-hidden="true"></i></button>
+                            <button class="room-feature-step room-feature-next" type="button" data-gallery-step="1"
+                                aria-label="Next twin-sharing room photo"><i class="fa-solid fa-chevron-right"
+                                    aria-hidden="true"></i></button>
+                            <span class="room-feature-count" aria-live="polite" aria-atomic="true">1 / 4</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="room-type-row" aria-labelledby="three-room-heading">
+                    <div class="room-type-details">
+                        <span class="room-type-icon"><i class="fa-solid fa-bed" aria-hidden="true"></i></span>
+                        <p class="room-type-kicker">Three Sharing Rooms</p>
+                        <h3 id="three-room-heading">Three Sharing Rooms</h3>
+                        <p class="room-type-description">A well-furnished space for you and two roommates, designed for
+                            comfort and convenience.</p>
+                        <ul class="room-type-facts" aria-label="Three-sharing room details">
+                            <li><i class="fa-solid fa-user-group" aria-hidden="true"></i><span>3 residents<br>per
+                                    room</span></li>
+                            <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>2 rooms<br>(6 beds total)</span>
+                            </li>
+                            <li><i class="fa-solid fa-snowflake" aria-hidden="true"></i><span>AC
+                                    Rooms<br>Available</span></li>
+                        </ul>
+                        <p class="room-type-price"><strong>₹13,000</strong><span>/ person / month</span></p>
+                        <div class="room-type-actions">
+                            <a class="room-type-gallery-link" href="gallery.html#property-gallery"><i
+                                    class="fa-regular fa-images" aria-hidden="true"></i>View Full Gallery</a>
+                            <a class="room-type-enquire-link"
+                                href="https://wa.me/917200060377?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20Three%20Sharing%20at%20PV%20Associates%20Women%27s%20PG."
+                                target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"
+                                    aria-hidden="true"></i>Enquire Now</a>
+                        </div>
+                    </div>
+                    <div class="room-feature-gallery" data-room-carousel
+                        data-gallery-images='[{"src":"assets/three-1.webp","alt":"Three-sharing room with three beds"},{"src":"assets/three-2.webp","alt":"Another view of the three-sharing room"},{"src":"assets/three-3.webp","alt":"Three-sharing room from another angle"},{"src":"assets/bathroom.webp","alt":"Attached bathroom"}]'
+                        role="group" tabindex="0"
+                        aria-label="Three-sharing room photo gallery. Use left and right arrow keys to change photos.">
+                        <div class="room-feature-main">
+                            <a class="room-feature-main-link" href="assets/three-1.webp" data-photo
+                                aria-label="Open three-sharing room photo 1"><img src="assets/three-1.webp"
+                                    alt="Three-sharing room with three beds" width="800" height="600" loading="lazy"
+                                    decoding="async" data-gallery-main></a>
+                            <button class="room-feature-step room-feature-prev" type="button" data-gallery-step="-1"
+                                aria-label="Previous three-sharing room photo"><i class="fa-solid fa-chevron-left"
+                                    aria-hidden="true"></i></button>
+                            <button class="room-feature-step room-feature-next" type="button" data-gallery-step="1"
+                                aria-label="Next three-sharing room photo"><i class="fa-solid fa-chevron-right"
+                                    aria-hidden="true"></i></button>
+                            <span class="room-feature-count" aria-live="polite" aria-atomic="true">1 / 4</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="rooms-wrap">
+                <p class="room-showcase-note">Food, AC usage, Wi-Fi, water and washing machine use are included. Contact
+                    management for availability, deposit details and any other applicable charges.</p>
+            </div>
+        </section>
+        <!-- Compact room inclusions; complete details live on Facilities -->
+        <section class="rooms-inclusion-strip" aria-label="Room inclusions">
+            <div class="site-container rooms-inclusion-inner">
+                <ul aria-label="Included amenities">
+                    <li><i class="fa-solid fa-snowflake" aria-hidden="true"></i>AC Rooms</li>
+                    <li><i class="fa-solid fa-shower" aria-hidden="true"></i>Attached Bathrooms</li>
+                    <li><i class="fa-solid fa-utensils" aria-hidden="true"></i>Food</li>
+                    <li><i class="fa-solid fa-wifi" aria-hidden="true"></i>Wi-Fi</li>
+                    <li><i class="fa-solid fa-shirt" aria-hidden="true"></i>Washing Machine</li>
+                </ul>
+                <a href="facilities.html">View All Facilities <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </section>
+        <section class="rooms-booking rooms-movein-showcase rooms-page-section" aria-labelledby="booking-heading">
+            <div class="site-container rooms-movein-layout">
+                <div class="rooms-movein-copy">
+                    <p class="rooms-eyebrow"><span>Before you move in</span></p>
+                    <h2 id="booking-heading">A clear start to <strong>your stay.</strong></h2>
+                    <p class="rooms-lead">Get all the important details about move-in, payments and required documents
+                        in one place.</p>
+                    <a href="rules.html" class="rooms-movein-rules">
+                        <span class="rooms-movein-rules-icon"><i class="fa-regular fa-file-lines"
+                                aria-hidden="true"></i></span>
+                        <span><strong>Read the complete rules &amp; regulations</strong><small>Know all the guidelines
+                                before you move in.</small></span>
+                        <span class="rooms-movein-rules-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+                <div class="rooms-movein-terms" aria-label="Move-in information">
+                    <details>
+                        <summary><span class="rooms-movein-term-icon"><i class="fa-solid fa-shield-halved"
+                                    aria-hidden="true"></i></span><span>Notice &amp; deposit refund</span><i
+                                class="fa-solid fa-chevron-down rooms-movein-chevron" aria-hidden="true"></i></summary>
+                        <p>A minimum 30-day notice period applies. If notice is less than 15 days, one month’s rent is
+                            adjusted; with 15–30 days’ notice, half a month’s rent is adjusted and the balance refunded.
+                        </p>
+                    </details>
+                    <details>
+                        <summary><span class="rooms-movein-term-icon"><i class="fa-regular fa-id-card"
+                                    aria-hidden="true"></i></span><span>Required documents</span><i
+                                class="fa-solid fa-chevron-down rooms-movein-chevron" aria-hidden="true"></i></summary>
+                        <p>Bring your identity and address proof, emergency contact
+                            details, and employment or study particulars as applicable.</p>
+                    </details>
+                    <details>
+                        <summary><span class="rooms-movein-term-icon"><i class="fa-solid fa-house"
+                                    aria-hidden="true"></i></span><span>House rules</span><i
+                                class="fa-solid fa-chevron-down rooms-movein-chevron" aria-hidden="true"></i></summary>
+                        <p>Review the handbook for visitor registration, shared-space care, security and other resident
+                            guidelines. <a href="rules.html">Read all house rules</a>.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <!-- Retained new FAQ design -->
+        <section class="rooms-faq rooms-page-section py-12 sm:py-16 bg-sage-50 border-t border-sage-100">
+            <div class="site-container">
+                <div class="text-center mb-8"><span
+                        class="text-teal-700 font-semibold text-xs uppercase tracking-widest bg-teal-100/60 px-3 py-1 rounded-full">FAQ</span>
+                    <h2 class="text-3xl font-bold text-teal-900 mt-3">A few things you might be wondering.</h2>
+                </div>
+                <div class="grid items-start gap-3 md:grid-cols-2">
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>What is the monthly rent?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Twin
+                            sharing is ₹13,000 per person per month, and three sharing is ₹13,000 per person per month.
+                        </p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>What does the rent include?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Food, AC
+                            usage, Wi-Fi, water and washing machine use are included. Contact management for deposit
+                            details and any other applicable charges.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>Do rooms have attached bathrooms?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Yes, all
+                            rooms have attached bathrooms and air conditioning.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>Are there AC usage timings?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">There is no
+                            timing restriction on AC usage.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>Is food provided?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Yes,
+                            vegetarian and non-vegetarian food is provided. Contact management for the menu and meal
+                            timings.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>Can residents cook?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Yes,
+                            residents can use the shared kitchen and utensils for cooking.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>Is parking available?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">Yes, car
+                            and two-wheeler parking is available. Contact management about space availability and any
+                            applicable conditions.</p>
+                    </details>
+                    <details class="bg-white rounded-2xl p-6 border border-sage-100 shadow-sm group">
+                        <summary
+                            class="font-bold text-teal-900 cursor-pointer flex justify-between items-center text-base">
+                            <span>When is the opening?</span><i
+                                class="fa-solid fa-chevron-down text-teal-600 transition group-open:rotate-180"></i>
+                        </summary>
+                        <p class="text-slate-600 text-sm mt-4 pt-4 border-t border-sage-100 leading-relaxed">The opening
+                            is scheduled for 8 November 2026.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <!-- Final Enquiry Section -->
+        <section class="rooms-contact-cta rooms-page-section">
+            <div class="site-container">
+                <div class="rooms-contact-banner">
+                    <div class="rooms-contact-mark" aria-hidden="true"><i class="fa-solid fa-building"></i></div>
+                    <div class="rooms-contact-copy">
+                        <span class="rooms-contact-kicker">Get in touch</span>
+                        <h2 class="rooms-contact-heading">Which room would you like to know more about?</h2>
+                        <p>Share your preferred sharing arrangement and expected move-in date. Management can help you confirm availability and understand the costs.</p>
+                    </div>
+                    <span class="rooms-contact-divider" aria-hidden="true"></span>
+                    <div class="rooms-contact-actions"><a
+                        href="https://wa.me/917200060377?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20rooms%20at%20PV%20Associates."
+                        target="_blank" rel="noopener noreferrer"
+                        class="rooms-cta-primary"><i
+                            class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>Enquire on
+                            WhatsApp</span></a><a href="contact.html#visit-enquiry-form"
+                        class="rooms-cta-secondary">Arrange a Visit</a><a href="tel:+917200060377"
+                        class="rooms-cta-secondary">Call (+91 72000 60377)</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="site-footer" aria-label="Website footer">
+        <div class="site-footer-shape site-footer-shape-top" aria-hidden="true"></div>
+        <div class="site-footer-shape site-footer-shape-bottom" aria-hidden="true"></div>
+        <div class="site-container site-footer-container">
+            <div class="site-footer-main">
+                <section class="site-footer-brand-column" aria-label="About PV Associates">
+                    <a class="site-footer-brand" href="index.html" aria-label="PV Associates Women's PG home">
+                        <span class="site-footer-logo" aria-hidden="true">PV</span>
+                        <span class="site-footer-brand-divider" aria-hidden="true"></span>
+                        <span class="site-footer-brand-copy"><strong>PV Associates</strong><small>WOMEN'S PG • MUGALIVAKKAM</small></span>
+                    </a>
+                    <p class="site-footer-description">Providing secure, comfortable, and well-maintained paying guest accommodation for women professionals and students in Mugalivakkam, Chennai.</p>
+                    <ul class="site-footer-benefits" aria-label="Our highlights">
+                        <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>Comfortable Stay</span></li>
+                        <li><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><span>Safe &amp; Secure Environment</span></li>
+                        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Prime Location</span></li>
+                    </ul>
+                </section>
+                <nav class="site-footer-links" aria-label="Quick links">
+                    <h2>Quick Links</h2>
+                    <span class="site-footer-heading-accent" aria-hidden="true"></span>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+                        <li><a href="rooms.html"><i class="fa-solid fa-bed" aria-hidden="true"></i><span>Rooms &amp; Tariff</span></a></li>
+                        <li><a href="facilities.html"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Facilities</span></a></li>
+                        <li><a href="gallery.html"><i class="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a></li>
+                        <li><a href="about-us.html"><i class="fa-solid fa-users" aria-hidden="true"></i><span>About Us</span></a></li>
+                        <li><a href="contact.html"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+                        <li><a href="rules.html"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>Rules &amp; Regulations</span></a></li>
+                    </ul>
+                </nav>
+                <section class="site-footer-contact" aria-labelledby="site-footer-contact-heading">
+                    <h2 id="site-footer-contact-heading">Contact Info</h2>
+                    <span class="site-footer-heading-accent" aria-hidden="true"></span>
+                    <div class="site-footer-contact-list">
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                            <address>No. 14, Bharati Street, Guruswamy Nagar Extension, Mugalivakkam Extension, Chennai – 600125</address>
+                        </div>
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                            <p><strong>Primary:</strong> <a href="tel:7200060377">+91 72000 60377</a><br><strong>Secondary:</strong> <a href="tel:7200069377">+91 72000 69377</a></p>
+                        </div>
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span>
+                            <a href="mailto:Paarthas@PV-womens-hos.com">Paarthas@PV-womens-hos.com</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="site-footer-bottom">
+                <p>© 2026 PV Associates Women's PG. All rights reserved.</p>
+                <p><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Opening on 8 November 2026</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Contact Bar -->
+    <div
+        class="rooms-mobile-contact md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-sage-200 px-4 py-3 flex items-center justify-between shadow-lg">
+        <a href="tel:7200060377"
+            class="flex-1 bg-sage-100 hover:bg-sage-200 text-teal-900 font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2">
+            <i class="fa-solid fa-phone text-teal-700"></i>
+            <span>Call (+91 72000 60377)</span>
+        </a>
+        <a href="https://wa.me/917200060377?text=Hi,%20I%20would%20like%20to%20enquire%20about%20PV%20Associates%20Women's%20PG%20Mugalivakkam."
+            target="_blank" rel="noopener noreferrer"
+            class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2">
+            <i class="fa-brands fa-whatsapp text-sm"></i>
+            <span>WhatsApp Enquiry</span>
+        </a>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
+            menuBtn.setAttribute('aria-expanded', String(!isExpanded));
+            mobileMenu.classList.toggle('hidden', isExpanded);
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            menuBtn.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
+    <script src="assets/photos.js"></script>
+    <script src="assets/room-gallery.js"></script>
+</body>
+
+</html>

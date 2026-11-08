@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PV Associates Women's PG | Mugalivakkam, Chennai</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
+                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
+                        gold: { 500: '#d97706', 600: '#b45309' }
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/photos.css">
+    <link rel="stylesheet" href="assets/site.css?v=compact-navbar-20261107">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="assets/home.css">
+    <script src="assets/header.js" defer></script>
+</head>
+
+<body class="site-page bg-sage-50 text-slate-800 font-sans antialiased pb-20 lg:pb-0" data-page="home">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-sage-100 shadow-sm">
+        <div class="site-header-inner site-container h-20 flex items-center justify-between">
+            <a href="index.html"
+                class="site-brand flex items-center space-x-3 focus:outline-none focus:ring-2 focus:ring-teal-600 rounded-lg">
+                <div
+                    class="w-10 h-10 rounded-xl bg-teal-800 flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    PV</div>
+                <div class="leading-tight">
+                    <span class="block font-bold text-lg text-teal-900">PV Associates</span>
+                    <span class="block text-[10px] font-semibold tracking-wider text-slate-500">WOMEN'S PG •
+                        MUGALIVAKKAM</span>
+                </div>
+            </a>
+
+            <nav class="site-header-nav hidden lg:flex site-nav items-center text-sm font-medium text-slate-600">
+                <a href="index.html" aria-current="page" class="hover:text-teal-700 transition">Home</a>
+                <a href="rooms.html" class="hover:text-teal-700 transition">Rooms & Tariff</a>
+                <a href="facilities.html" class="hover:text-teal-700 transition">Facilities</a>
+                <a href="gallery.html" class="hover:text-teal-700 transition">Gallery</a>
+                <a href="about-us.html" class="hover:text-teal-700 transition">About Us</a>
+                <a href="contact.html" class="hover:text-teal-700 transition">Contact</a>
+            </nav>
+
+            <div class="site-header-actions hidden lg:flex items-center space-x-4">
+                <a href="tel:7200060377"
+                    class="flex items-center space-x-2 text-teal-800 font-semibold text-sm hover:text-teal-700 bg-teal-50 px-4 py-2 rounded-lg border border-teal-100 transition">
+                    <i class="fa-solid fa-phone-volume text-gold-500"></i>
+                    <span>+91 72000 60377</span>
+                </a>
+                <a href="index.html#enquiry-section"
+                    class="bg-teal-800 hover:bg-teal-900 text-white text-sm font-medium px-5 py-2.5 rounded-lg shadow-sm transition"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a>
+            </div>
+
+            <button id="menu-btn" aria-label="Toggle Menu"
+                class="lg:hidden text-slate-700 focus:outline-none text-xl p-2"><i
+                    class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-sage-100 px-6 py-4 space-y-3 shadow-lg">
+            <a href="index.html" aria-current="page" class="block text-slate-700 font-medium py-1">Home</a>
+            <a href="rooms.html" class="block text-slate-700 font-medium py-1">Rooms & Tariff</a>
+            <a href="facilities.html" class="block text-slate-700 font-medium py-1">Facilities</a>
+            <a href="gallery.html" class="block text-slate-700 font-medium py-1">Gallery</a>
+            <a href="about-us.html" class="block text-slate-700 font-medium py-1">About Us</a>
+            <a href="contact.html" class="block text-slate-700 font-medium py-1">Contact</a>
+        
+            <div class="site-mobile-header-actions"><a href="tel:7200060377"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span>+91 72000 60377</span></a><a href="index.html#enquiry-section"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a></div>
+        </div>
+    </header>
+
+    <!-- Homepage hero -->
+    <section class="home-hero" aria-labelledby="home-hero-heading">
+
+                <svg class="home-hero-divider" viewBox="0 0 1000 730" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <defs><linearGradient id="home-hero-panel-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b0f2a"/><stop offset=".75" stop-color="#881337"/><stop offset="1" stop-color="#70102f"/></linearGradient></defs>
+            <path fill="#e9a3b9" d="M0 0H544C524 240 494 490 454 730H0Z"/>
+            <path fill="url(#home-hero-panel-gradient)" d="M0 0H540C520 240 490 490 450 730H0Z"/>
+        </svg>
+        <div class="home-hero-inner">
+
+            <div class="home-hero-copy">
+                <p class="home-hero-eyebrow">Women's PG in Mugalivakkam</p>
+                <h1 id="home-hero-heading"><span class="home-hero-line">A welcoming home<span class="home-hero-mobile-break"></span> for</span> <span class="home-hero-line"> your <span class="home-hero-highlight">next chapter</span></span></h1>
+                <p class="home-hero-description">Safe, comfortable, and well-maintained women's PG accommodation for working women and students in Mugalivakkam, Chennai.</p>
+                <ul class="home-hero-features" aria-label="Accommodation highlights">
+                    <li><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span><small>Safe &amp;<br>Secure</small></li>
+                    <li><span><i class="fa-solid fa-bed" aria-hidden="true"></i></span><small>Fully<br>Furnished</small></li>
+                    <li><span><i class="fa-solid fa-snowflake" aria-hidden="true"></i></span><small>AC<br>Rooms</small></li>
+                    <li><span><i class="fa-solid fa-wifi" aria-hidden="true"></i></span><small>Wi-Fi<br>Access</small></li>
+                    <li><span><i class="fa-solid fa-utensils" aria-hidden="true"></i></span><small>Homely<br>Food</small></li>
+                </ul>
+                <div class="home-hero-actions">
+                    <a href="index.html#enquiry-section" class="home-hero-button home-hero-button-primary"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i>Book a Visit</a>
+                    <a href="https://wa.me/917200060377?text=Hi,%20I%20would%20like%20to%20enquire%20about%20PV%20Associates%20Women%27s%20PG%20in%20Mugalivakkam." target="_blank" rel="noopener noreferrer" class="home-hero-button home-hero-button-secondary"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>Enquire on WhatsApp</a>
+                </div>
+                <p class="home-hero-opening"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i>Opening on 8 November 2026</p>
+            </div>
+            <div class="home-hero-photo">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="assets/building-desktop-name-corrected.png">
+                    <img src="assets/building-mobile-name-corrected.png" alt="PV Associates building and entrance in Mugalivakkam" width="1024" height="1536" fetchpriority="high" decoding="async">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <!-- About PV Associates introduction -->
+    <section class="home-intro" aria-labelledby="about-heading">
+        <div class="home-intro-inner home-page-container">
+            <figure class="home-intro-figure">
+                <img src="assets/home-about-ai.jpg" alt="AI-generated illustration of a welcoming twin-sharing bedroom; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async">
+                <figcaption>A look inside your everyday space.</figcaption>
+            </figure>
+            <div class="home-intro-copy">
+                <span class="home-intro-eyebrow">About PV Associates</span>
+                <h2 id="about-heading">Comfort for your everyday. Space for your <span>next chapter.</span></h2>
+                <p>Moving to Chennai for work or studies? Find a welcoming place to settle in, with furnished AC rooms, freshly prepared meals, and everyday essentials in Mugalivakkam.</p>
+                <ul class="home-intro-features">
+                    <li><span><i class="fa-solid fa-bed" aria-hidden="true"></i></span>Furnished AC rooms</li>
+                    <li><span><i class="fa-solid fa-utensils" aria-hidden="true"></i></span>Food &amp; Wi-Fi included</li>
+                    <li><span><i class="fa-solid fa-user-group" aria-hidden="true"></i></span>For women students &amp; professionals</li>
+                </ul>
+                <a class="home-intro-link" href="rooms.html">Explore our rooms <span aria-hidden="true">→</span></a>
+                <i class="home-intro-decoration fa-solid fa-city" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+    <!-- Overall living experience -->
+    <section class="home-living-section" aria-labelledby="home-living-heading">
+        <div class="home-page-container">
+            <div class="home-living-panel">
+                <header class="home-living-heading">
+                    <p class="home-living-eyebrow">Life at PV Associates</p>
+                    <h2 id="home-living-heading">A Better Place to Live, Connect &amp; Grow.</h2>
+                </header>
+                <ul class="home-living-benefits">
+                    <li><span><i class="fa-solid fa-bed" aria-hidden="true"></i></span><h3>Comfortable Everyday Living</h3></li>
+                    <li><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span><h3>A Safe &amp; Secure Environment</h3></li>
+                    <li><span><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><h3>Convenient Mugalivakkam Location</h3></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Compact introduction to everyday living -->
+    <section class="home-lifestyle-facilities" aria-labelledby="home-lifestyle-facilities-heading">
+        <div class="home-lifestyle-container home-lifestyle-layout home-page-container">
+            <figure class="home-lifestyle-photo"><img src="assets/home-dining-ai.jpg" alt="AI-generated illustration of a clean shared dining hall; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async"></figure>
+            <div class="home-lifestyle-copy">
+                <p class="home-lifestyle-eyebrow">Everyday living</p>
+                <h2 id="home-lifestyle-facilities-heading">Thoughtfully Designed for Everyday Living.</h2>
+                <p>From settling into your room to sharing a meal, find the everyday conveniences that help you feel at home. Discover the spaces and facilities available at PV Associates.</p>
+                <a class="home-lifestyle-button" href="facilities.html">Explore All Facilities <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Location Preview -->
+    <section class="home-neighborhood" aria-labelledby="location-heading">
+        <div class="home-neighborhood-inner home-page-container">
+            <div class="home-neighborhood-main">
+                <header class="home-neighborhood-heading">
+                    <p class="home-neighborhood-eyebrow">Around the Neighbourhood</p>
+                    <h2 id="location-heading">Find your way around Mugalivakkam.</h2>
+                    <p>Explore nearby workplaces, education, healthcare, shopping, a park and a temple.</p>
+                </header>
+                <div class="home-neighborhood-cards">
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></span>Workplaces</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=DLF%20Cybercity%20Ramapuram%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>DLF Cybercity</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>Education</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=SRM%20Ramapuram%20Campus%20Ramapuram%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>SRM Ramapuram Campus</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-hospital" aria-hidden="true"></i></span>Healthcare</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Sri%20Ramachandra%20Medical%20Center%20Porur%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>Sri Ramachandra Medical Center</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></span>Shopping</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Saravana%20Stores%20Porur%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>Saravana Stores</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>Park</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Elephant%20Park%20Mugalivakkam%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>Elephant Park</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="home-neighborhood-card">
+                        <h3><span class="home-neighborhood-icon"><i class="fa-solid fa-place-of-worship" aria-hidden="true"></i></span>Temple</h3>
+                        <div class="home-neighborhood-places">
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Sri%20Durga%20Lakshmi%20Saraswathi%20Temple%20Mugalivakkam%20Chennai" target="_blank" rel="noopener noreferrer"><span><strong>Sri Durga Lakshmi Saraswathi Temple</strong></span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <aside class="home-neighborhood-map-card" aria-label="PV Associates location and address">
+                <div class="home-neighborhood-map-wrap">
+                    <iframe src="https://maps.google.com/maps?q=No.%2014%2C%20Bharati%20Street%2C%20Guruswamy%20Nagar%20Extension%2C%20Mugalivakkam%20Extension%2C%20Chennai%20600125&amp;output=embed" title="Map search for PV Associates at No. 14 Bharati Street, Mugalivakkam" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    <div class="home-neighborhood-map-label"><span><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><strong>PV Associates <small>Mugalivakkam</small></strong></div>
+                </div>
+                <div class="home-neighborhood-map-details">
+                    <p class="home-neighborhood-address"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>No. 14, Bharati Street, Guruswamy Nagar Extension, Mugalivakkam, Chennai – 600125.</span></p>
+                    <div class="home-neighborhood-map-actions">
+                        <a class="home-neighborhood-maps-link" href="https://www.google.com/maps/search/?api=1&amp;query=No.%2014%2C%20Bharati%20Street%2C%20Guruswamy%20Nagar%20Extension%2C%20Mugalivakkam%20Extension%2C%20Chennai%20600125" target="_blank" rel="noopener noreferrer">Open in Google Maps <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                        <a class="home-neighborhood-about-link" href="about-us.html">More location details <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <!-- FAQs -->
+    <section class="home-faq" aria-labelledby="home-faq-heading">
+        <div class="home-faq-inner home-page-container">
+            <header class="home-faq-heading">
+                <span class="home-faq-badge">FAQ</span>
+                <h2 id="home-faq-heading">Frequently Asked Questions</h2>
+                <p>Get quick answers to the most common queries about our women's PG.</p>
+            </header>
+            <div class="home-faq-columns">
+                <div class="home-faq-column" aria-label="Frequently asked questions, 1 through 5">
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-1" type="button" aria-expanded="false" aria-controls="home-faq-answer-1"><span>Who is eligible to stay?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-1" role="region" aria-labelledby="home-faq-question-1" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Accommodation is intended for adult women aged 18 years or above, including working women and students, subject to room availability and document verification.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-2" type="button" aria-expanded="false" aria-controls="home-faq-answer-2"><span>What is the monthly rent?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-2" role="region" aria-labelledby="home-faq-question-2" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Twin sharing is ₹13,000 per person per month, and three sharing is ₹13,000 per person per month.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-3" type="button" aria-expanded="false" aria-controls="home-faq-answer-3"><span>Do rooms have attached bathrooms?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-3" role="region" aria-labelledby="home-faq-question-3" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Yes, all rooms have attached bathrooms and air conditioning.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-4" type="button" aria-expanded="false" aria-controls="home-faq-answer-4"><span>Is food provided?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-4" role="region" aria-labelledby="home-faq-question-4" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Yes, vegetarian and non-vegetarian food is provided. Contact management for the menu and meal timings.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-5" type="button" aria-expanded="false" aria-controls="home-faq-answer-5"><span>Is parking available?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-5" role="region" aria-labelledby="home-faq-question-5" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Yes, car and two-wheeler parking is available. Contact management about space availability and any applicable conditions.</p></div></div>
+                    </article>
+                </div>
+                <div class="home-faq-column" aria-label="Frequently asked questions, 6 through 10">
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-6" type="button" aria-expanded="false" aria-controls="home-faq-answer-6"><span>What does the rent include?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-6" role="region" aria-labelledby="home-faq-question-6" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Food, AC usage, Wi-Fi, water and washing machine use are included. Contact management for deposit details and any other applicable charges.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-7" type="button" aria-expanded="false" aria-controls="home-faq-answer-7"><span>Are there AC usage timings?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-7" role="region" aria-labelledby="home-faq-question-7" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>There is no timing restriction on AC usage.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-8" type="button" aria-expanded="false" aria-controls="home-faq-answer-8"><span>Can residents cook?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-8" role="region" aria-labelledby="home-faq-question-8" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Yes, residents can use the shared kitchen and utensils for cooking.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-9" type="button" aria-expanded="false" aria-controls="home-faq-answer-9"><span>When is the opening?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-9" role="region" aria-labelledby="home-faq-question-9" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>The opening is scheduled for 8 November 2026.</p></div></div>
+                    </article>
+                    <article class="home-faq-item">
+                        <h3><button class="home-faq-question" id="home-faq-question-10" type="button" aria-expanded="false" aria-controls="home-faq-answer-10"><span>How can I book a room or visit?</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button></h3>
+                        <div class="home-faq-answer" id="home-faq-answer-10" role="region" aria-labelledby="home-faq-question-10" aria-hidden="true" hidden><div class="home-faq-answer-inner"><p>Contact management at +91 72000 60377 by phone or WhatsApp to ask about availability and arrange a visit.</p></div></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        (() => {
+            const faqButtons = Array.from(document.querySelectorAll('.home-faq-question'));
+            const closeFaq = button => {
+                const panel = document.getElementById(button.getAttribute('aria-controls'));
+                if (!panel || button.getAttribute('aria-expanded') !== 'true') return;
+                button.setAttribute('aria-expanded', 'false');
+                panel.setAttribute('aria-hidden', 'true');
+                panel.dataset.open = 'false';
+                panel.addEventListener('transitionend', () => {
+                    if (panel.dataset.open === 'false') panel.hidden = true;
+                }, { once: true });
+            };
+            faqButtons.forEach(button => button.addEventListener('click', () => {
+                const shouldOpen = button.getAttribute('aria-expanded') !== 'true';
+                faqButtons.forEach(other => { if (other !== button) closeFaq(other); });
+                const panel = document.getElementById(button.getAttribute('aria-controls'));
+                if (!panel) return;
+                if (!shouldOpen) { closeFaq(button); return; }
+                button.setAttribute('aria-expanded', 'true');
+                panel.hidden = false;
+                panel.setAttribute('aria-hidden', 'false');
+                requestAnimationFrame(() => { panel.dataset.open = 'true'; });
+            }));
+        })();
+    </script>
+
+    <!-- Contact Management / WhatsApp Enquiry -->
+    <section id="enquiry-section" class="home-contact-section" aria-labelledby="home-contact-heading">
+        <div class="home-page-container">
+        <div class="home-contact-card">
+            <div class="home-contact-intro">
+                <span class="home-contact-eyebrow"><i class="fa-solid fa-headset" aria-hidden="true"></i>Contact Management</span>
+                <h2 id="home-contact-heading">Planning your <span>next move?</span></h2>
+                <span class="home-contact-underline" aria-hidden="true"></span>
+                <p>Tell us your preferred room type and expected move-in date. Speak with management about availability, costs and arrangements.</p>
+                <div class="home-contact-illustration" aria-hidden="true">
+                    <i class="fa-solid fa-city"></i><i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
+            <div class="home-contact-form-card">
+                <header class="home-contact-form-heading">
+                    <span class="home-contact-whatsapp-icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
+                    <span><strong>Send Enquiry Form to WhatsApp</strong><small>Share your details and we'll connect with you on WhatsApp.</small></span>
+                </header>
+                <form id="visit-enquiry-form" class="home-contact-form" onsubmit="submitFormToWhatsApp(event)">
+                    <div class="home-contact-fields">
+                        <div class="home-contact-field">
+                            <label for="visitor-name">Your Full Name <span>*</span></label>
+                            <div class="home-contact-input-wrap"><i class="fa-regular fa-user" aria-hidden="true"></i><input type="text" id="visitor-name" name="name" required autocomplete="name" placeholder="e.g. Priya Sharma"></div>
+                        </div>
+                        <div class="home-contact-field">
+                            <label for="visitor-phone">Phone Number <span>*</span></label>
+                            <div class="home-contact-input-wrap"><i class="fa-solid fa-phone" aria-hidden="true"></i><input type="tel" id="visitor-phone" name="phone" required autocomplete="tel" inputmode="tel" placeholder="e.g. +91 98765 43210"></div>
+                        </div>
+                        <div class="home-contact-field">
+                            <label for="visitor-room">Preferred Room Type <span>*</span></label>
+                            <div class="home-contact-input-wrap"><i class="fa-solid fa-bed" aria-hidden="true"></i><select id="visitor-room" name="room" required><option value="Twin Sharing">Twin Sharing</option><option value="Three Sharing">Three Sharing</option><option value="General Enquiry">General Enquiry</option></select></div>
+                        </div>
+                        <div class="home-contact-field">
+                            <label for="visitor-date">Expected Move-in Date <span class="home-contact-optional">(Optional)</span></label>
+                            <div class="home-contact-input-wrap"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><input type="date" id="visitor-date" name="move-in-date"></div>
+                        </div>
+                        <div class="home-contact-field home-contact-message-field">
+                            <label for="visitor-msg">Message or Any Request <span class="home-contact-optional">(Optional)</span></label>
+                            <div class="home-contact-input-wrap home-contact-textarea-wrap"><i class="fa-regular fa-message" aria-hidden="true"></i><textarea id="visitor-msg" name="message" rows="3" placeholder="e.g. Would like to visit this Saturday."></textarea></div>
+                        </div>
+                    </div>
+                    <button class="home-contact-submit" type="submit"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>Continue to WhatsApp</span><span class="home-contact-submit-arrow" aria-hidden="true">→</span></button>
+                    <p class="home-contact-privacy"><i class="fa-solid fa-circle-info" aria-hidden="true"></i><span>This form prepares a WhatsApp message on your device. Clicking submit opens WhatsApp directly with your text. Your details are not saved, stored on servers, or automatically delivered by email.</span></p>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+        <footer class="site-footer" aria-label="Website footer">
+        <div class="site-footer-shape site-footer-shape-top" aria-hidden="true"></div>
+        <div class="site-footer-shape site-footer-shape-bottom" aria-hidden="true"></div>
+        <div class="site-container site-footer-container">
+            <div class="site-footer-main">
+                <section class="site-footer-brand-column" aria-label="About PV Associates">
+                    <a class="site-footer-brand" href="index.html" aria-label="PV Associates Women's PG home">
+                        <span class="site-footer-logo" aria-hidden="true">PV</span>
+                        <span class="site-footer-brand-divider" aria-hidden="true"></span>
+                        <span class="site-footer-brand-copy"><strong>PV Associates</strong><small>WOMEN'S PG • MUGALIVAKKAM</small></span>
+                    </a>
+                    <p class="site-footer-description">Providing secure, comfortable, and well-maintained paying guest accommodation for women professionals and students in Mugalivakkam, Chennai.</p>
+                    <ul class="site-footer-benefits" aria-label="Our highlights">
+                        <li><i class="fa-solid fa-bed" aria-hidden="true"></i><span>Comfortable Stay</span></li>
+                        <li><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><span>Safe &amp; Secure Environment</span></li>
+                        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Prime Location</span></li>
+                    </ul>
+                </section>
+                <nav class="site-footer-links" aria-label="Quick links">
+                    <h2>Quick Links</h2>
+                    <span class="site-footer-heading-accent" aria-hidden="true"></span>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+                        <li><a href="rooms.html"><i class="fa-solid fa-bed" aria-hidden="true"></i><span>Rooms &amp; Tariff</span></a></li>
+                        <li><a href="facilities.html"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Facilities</span></a></li>
+                        <li><a href="gallery.html"><i class="fa-regular fa-image" aria-hidden="true"></i><span>Gallery</span></a></li>
+                        <li><a href="about-us.html"><i class="fa-solid fa-users" aria-hidden="true"></i><span>About Us</span></a></li>
+                        <li><a href="contact.html"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+                        <li><a href="rules.html"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>Rules &amp; Regulations</span></a></li>
+                    </ul>
+                </nav>
+                <section class="site-footer-contact" aria-labelledby="site-footer-contact-heading">
+                    <h2 id="site-footer-contact-heading">Contact Info</h2>
+                    <span class="site-footer-heading-accent" aria-hidden="true"></span>
+                    <div class="site-footer-contact-list">
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                            <address>No. 14, Bharati Street, Guruswamy Nagar Extension, Mugalivakkam Extension, Chennai – 600125</address>
+                        </div>
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                            <p><strong>Primary:</strong> <a href="tel:7200060377">+91 72000 60377</a><br><strong>Secondary:</strong> <a href="tel:7200069377">+91 72000 69377</a></p>
+                        </div>
+                        <div class="site-footer-contact-item">
+                            <span class="site-footer-contact-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span>
+                            <a href="mailto:Paarthas@PV-womens-hos.com">Paarthas@PV-womens-hos.com</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="site-footer-bottom">
+                <p>© 2026 PV Associates Women's PG. All rights reserved.</p>
+                <p><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Opening on 8 November 2026</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Contact Bar -->
+    <div
+        class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-sage-200 px-4 py-3 flex items-center justify-between shadow-lg">
+        <a href="tel:7200060377"
+            class="flex-1 bg-sage-100 hover:bg-sage-200 text-teal-900 font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2 mr-2">
+            <i class="fa-solid fa-phone text-teal-700"></i>
+            <span>Call (+91 72000 60377)</span>
+        </a>
+        <a href="https://wa.me/917200060377?text=Hi,%20I%20would%20like%20to%20enquire%20about%20PV%20Associates%20Women's%20PG%20Mugalivakkam."
+            target="_blank" rel="noopener noreferrer"
+            class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2 ml-2">
+            <i class="fa-brands fa-whatsapp text-sm"></i>
+            <span>WhatsApp Enquiry</span>
+        </a>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
+
+        function submitFormToWhatsApp(event) {
+            event.preventDefault();
+            const name = document.getElementById('visitor-name').value.trim();
+            const phone = document.getElementById('visitor-phone').value.trim();
+            const room = document.getElementById('visitor-room').value;
+            const date = document.getElementById('visitor-date').value;
+            const msg = document.getElementById('visitor-msg').value.trim();
+
+            if (!name || !phone) { alert('Please enter your name and phone number.'); return; }
+            const normalizedPhone = phone.replace(/[\s()-]/g, '');
+            if (!/^(?:\+?91)?[6-9]\d{9}$/.test(normalizedPhone)) {
+                alert('Please enter a valid 10-digit Indian mobile number, with or without +91.');
+                document.getElementById('visitor-phone').focus();
+                return;
+            }
+
+            let message = `Hi, my name is ${name}. Phone: ${phone}. Enquiring about room preference: ${room}.`;
+            if (date) message += ` Expected move-in date: ${date}.`;
+            if (msg) message += ` Note: ${msg}`;
+
+            window.open(`https://wa.me/917200060377?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+    <script src="assets/photos.js"></script>
+</body>
+
+</html>
