@@ -38,7 +38,7 @@
   if (!links.length || !HTMLDialogElement.prototype.showModal) return;
   const css = document.createElement('link');
   css.rel = 'stylesheet';
-  css.href = new URL('visit-booking.css', document.currentScript.src).href;
+  css.href = new URL('../css/visit-booking.css', document.currentScript.src).href;
   document.head.append(css);
   const dialog = document.createElement('dialog');
   dialog.id = 'pv-visit-dialog';
