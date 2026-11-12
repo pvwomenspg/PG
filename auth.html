@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="referrer" content="no-referrer">
+    <title>Login & Sign Up | PV Associates Women's PG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/auth.css">
+    <script type="module" src="js/auth.js"></script>
+</head>
+<body>
+    <main class="account-layout">
+        <a class="account-brand" href="index.html"><span>PV</span>PV Associates</a>
+        <section class="account-card" aria-labelledby="account-heading">
+            <p class="account-eyebrow">WOMEN'S PG · MUGALIVAKKAM</p>
+            <h1 id="account-heading">Welcome back</h1>
+            <p id="account-description">Log in to plan your property visit.</p>
+            <div class="account-tabs" aria-label="Account options">
+                <button type="button" data-mode="login" aria-pressed="true">Log In</button>
+                <button type="button" data-mode="signup" aria-pressed="false">Sign Up</button>
+            </div>
+            <p id="account-status" role="status" aria-live="polite" hidden></p>
+            <form id="account-form" aria-describedby="account-description">
+                <label id="account-name-field" hidden>Full name
+                    <input id="account-name" name="fullName" autocomplete="name" maxlength="100" disabled>
+                </label>
+                <label id="account-email-field">Email address
+                    <input id="account-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+                </label>
+                <label id="account-password-field">Password
+                    <input id="account-password" name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <p id="account-password-hint" hidden>Use at least 8 characters, including an uppercase letter, a lowercase letter and a number.</p>
+                <label id="account-confirm-field" hidden>Confirm password
+                    <input id="account-confirm" name="confirmPassword" type="password" autocomplete="new-password" disabled>
+                </label>
+                <button class="account-primary" id="account-submit" type="submit">Log In</button>
+            </form>
+            <div id="account-signed-in" hidden>
+                <p id="account-identity"></p>
+                <a class="account-primary" id="account-continue" href="index.html?book=1">Continue to Book Visit</a>
+                <button class="account-link" id="account-signout" type="button">Sign Out</button>
+            </div>
+            <button class="account-link" id="account-reset" type="button">Forgot password?</button>
+            <button class="account-link" id="account-resend" type="button" hidden>Resend verification email</button>
+            <p class="account-privacy">Your account and visit requests are stored securely in Supabase. Management reviews each request before confirming a visit.</p>
+            <a class="account-back" href="index.html">Back to website</a>
+        </section>
+    </main>
+</body>
+</html>

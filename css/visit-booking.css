@@ -69,3 +69,12 @@ body.pv-visit-open { overflow: hidden; }
     .pv-visit-fields { grid-template-columns: minmax(0, 1fr); gap: 16px; }
     .pv-visit-wide { grid-column: auto; }
 }
+
+.pv-visit-account { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: 18px; color: #64748b; font-size: 13px; }
+.pv-visit-identity { overflow-wrap: anywhere; min-width: 0; }
+.pv-visit-signout { min-height: 44px; padding: 8px 12px; border: 1px solid #e5cfd7; border-radius: 10px; color: #881337; background: #fff; font: inherit; cursor: pointer; }
+
+.pv-visit-status { margin: 16px 0 0; padding: 14px; border: 1px solid #e5cfd7; border-radius: 12px; background: #fff0f3; color: #881337; font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+.pv-visit-status[hidden], .pv-visit-new[hidden] { display: none; }
+.pv-visit-new { width: 100%; min-height: 48px; margin-top: 14px; border: 1px solid #881337; border-radius: 12px; background: #fff; color: #881337; font: inherit; cursor: pointer; }
+.pv-visit-submit:disabled { cursor: default; opacity: .75; }
