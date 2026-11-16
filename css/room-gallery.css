@@ -186,11 +186,7 @@
     letter-spacing: -.045em;
 }
 
-.room-types-showcase .room-type-price span {
-    margin-top: 4px;
-    color: #d35472;
-    font-size: 11px;
-}
+
 
 .room-types-showcase .room-type-actions {
     display: grid;
@@ -445,7 +441,7 @@
 
 /* Keep room details vertically centered beside the matching photo. */.room-types-showcase .room-type-details{align-self:stretch;height:100%;align-content:center}.room-types-showcase .room-feature-gallery{align-self:center}@media(max-width:800px){.room-types-showcase .room-type-details{height:auto;align-self:stretch}}
 
-/* Final spacing and alignment pass for the two room cards. */.room-types-showcase .room-showcase-heading{margin-bottom:18px}.room-types-showcase .room-type-row{grid-template-columns:minmax(0,45fr) minmax(0,55fr);align-items:stretch;gap:20px;margin-top:0;padding:18px}.room-types-showcase .room-type-row+.room-type-row{margin-top:16px}.room-types-showcase .room-type-details{height:100%;align-self:stretch;grid-template-columns:58px minmax(0,1fr);grid-template-rows:auto auto minmax(34px,auto) auto auto auto;align-content:center;align-items:center;row-gap:9px;column-gap:11px}.room-types-showcase .room-type-icon{grid-row:1 / span 3;width:50px;height:50px}.room-types-showcase .room-type-kicker{grid-row:1}.room-types-showcase .room-type-details h3{grid-row:2;margin:0}.room-types-showcase .room-type-description{grid-row:3;margin:0}.room-types-showcase .room-type-facts{grid-row:4;margin:0;gap:8px}.room-types-showcase .room-type-facts li{min-height:54px;gap:7px;padding:7px 9px;font-size:10px}.room-types-showcase .room-type-price{grid-row:5;margin:0}.room-types-showcase .room-type-actions{grid-row:6;margin:0;gap:12px}.room-types-showcase .room-type-actions a{min-height:44px;padding-inline:10px}.room-types-showcase .room-feature-gallery{width:min(100%,560px);align-self:center}.room-types-showcase .room-feature-main{aspect-ratio:3 / 2}.room-types-showcase .room-showcase-note{margin-top:18px}@media(max-width:1050px) and (min-width:901px){.room-types-showcase .room-type-row{gap:14px;padding:15px}.room-types-showcase .room-type-details{grid-template-columns:46px minmax(0,1fr);column-gap:8px;row-gap:8px}.room-types-showcase .room-type-icon{width:42px;height:42px}.room-types-showcase .room-type-facts{gap:5px}.room-types-showcase .room-type-facts li{gap:4px;padding:6px 5px;font-size:9px}.room-types-showcase .room-type-actions{gap:7px}.room-types-showcase .room-type-actions a{padding-inline:6px;font-size:10px}}@media(max-width:900px){.room-types-showcase .room-type-row{grid-template-columns:1fr;align-items:stretch;gap:12px;padding:15px}.room-types-showcase .room-type-details{height:auto;align-self:stretch;grid-template-rows:auto auto minmax(0,auto) auto auto auto;align-content:start;row-gap:8px}.room-types-showcase .room-feature-gallery{width:min(100%,560px);justify-self:center}.room-types-showcase .room-feature-main{aspect-ratio:3 / 2}.room-types-showcase .room-type-row+.room-type-row{margin-top:14px}}@media(max-width:520px){.room-types-showcase .room-type-row{padding:12px;gap:10px}.room-types-showcase .room-type-details{grid-template-columns:40px minmax(0,1fr);column-gap:8px;row-gap:7px}.room-types-showcase .room-type-icon{width:38px;height:38px}.room-types-showcase .room-type-facts{gap:5px}.room-types-showcase .room-type-facts li{min-height:46px;padding:5px}.room-types-showcase .room-type-actions{gap:7px}}
+/* Final spacing and alignment pass for the two room cards. */.room-types-showcase .room-showcase-heading{margin-bottom:18px}.room-types-showcase .room-type-row{grid-template-columns:minmax(0,48fr) minmax(0,52fr);align-items:stretch;gap:24px;margin-top:0;padding:24px}.room-types-showcase .room-type-row+.room-type-row{margin-top:16px}.room-types-showcase .room-type-details{height:100%;align-self:stretch;grid-template-columns:58px minmax(0,1fr);grid-template-rows:auto auto minmax(34px,auto) auto auto auto;align-content:center;align-items:center;row-gap:12px;column-gap:12px}.room-types-showcase .room-type-icon{grid-row:1 / span 3;width:50px;height:50px}.room-types-showcase .room-type-kicker{grid-row:1}.room-types-showcase .room-type-details h3{grid-row:2;margin:0}.room-types-showcase .room-type-description{grid-row:3;margin:0}.room-types-showcase .room-type-facts{grid-row:4;margin:0;gap:8px}.room-types-showcase .room-type-facts li{min-height:54px;gap:7px;padding:7px 9px;font-size:10px}.room-types-showcase .room-type-price{grid-row:5;margin:0}.room-types-showcase .room-type-actions{grid-row:6;margin:0;gap:12px}.room-types-showcase .room-type-actions a{min-height:44px;padding-inline:10px}.room-types-showcase .room-feature-gallery{width:min(94%,500px);align-self:center;justify-self:end}.room-types-showcase .room-feature-main{aspect-ratio:3 / 2}.room-types-showcase .room-showcase-note{margin-top:18px}@media(max-width:1050px) and (min-width:901px){.room-types-showcase .room-type-row{gap:14px;padding:15px}.room-types-showcase .room-type-details{grid-template-columns:46px minmax(0,1fr);column-gap:8px;row-gap:8px}.room-types-showcase .room-type-icon{width:42px;height:42px}.room-types-showcase .room-type-facts{gap:5px}.room-types-showcase .room-type-facts li{gap:4px;padding:6px 5px;font-size:9px}.room-types-showcase .room-type-actions{gap:7px}.room-types-showcase .room-type-actions a{padding-inline:6px;font-size:10px}}@media(max-width:900px){.room-types-showcase .room-type-row{grid-template-columns:1fr;align-items:stretch;gap:12px;padding:15px}.room-types-showcase .room-type-details{height:auto;align-self:stretch;grid-template-rows:auto auto minmax(0,auto) auto auto auto;align-content:start;row-gap:8px}.room-types-showcase .room-feature-gallery{width:min(100%,560px);justify-self:center}.room-types-showcase .room-feature-main{aspect-ratio:3 / 2}.room-types-showcase .room-type-row+.room-type-row{margin-top:14px}}@media(max-width:520px){.room-types-showcase .room-type-row{padding:12px;gap:10px}.room-types-showcase .room-type-details{grid-template-columns:40px minmax(0,1fr);column-gap:8px;row-gap:7px}.room-types-showcase .room-type-icon{width:38px;height:38px}.room-types-showcase .room-type-facts{gap:5px}.room-types-showcase .room-type-facts li{min-height:46px;padding:5px}.room-types-showcase .room-type-actions{gap:7px}}
 
 
 
@@ -616,7 +612,7 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
-    padding: 28px 24px 34px;
+    padding: 28px 24px 64px;
     border: 0;
     background:
         radial-gradient(ellipse at 87% 8%, #e11d4855 0, transparent 38%),
@@ -627,7 +623,7 @@
     position: absolute;
     z-index: -1;
     right: -5%;
-    bottom: -108px;
+    bottom: -123px;
     left: -5%;
     height: 155px;
     border-radius: 50% 50% 0 0 / 44% 44% 0 0;
@@ -663,7 +659,7 @@
 
 .room-types-showcase { padding-block: 44px 48px; }
 .room-types-showcase .room-showcase-heading { margin-bottom: 24px; }
-.room-types-showcase .room-type-row { gap: 22px; padding: 20px; border-radius: 20px; }
+.room-types-showcase .room-type-row { gap: 24px; padding: 24px; border-radius: 20px; }
 .room-types-showcase .room-type-details { row-gap: 12px; column-gap: 13px; }
 .room-types-showcase .room-type-kicker { font-size: 11px; }
 .room-types-showcase .room-type-details h3 { font-size: 22px; }
@@ -672,7 +668,7 @@
 .room-types-showcase .room-type-facts li { min-height: 58px; padding: 8px 10px; font-size: 11px; }
 .room-types-showcase .room-type-facts i { font-size: 17px; }
 .room-types-showcase .room-type-price strong { font-size: 30px; }
-.room-types-showcase .room-type-price span { font-size: 12px; }
+
 .room-types-showcase .room-type-actions a { min-height: 46px; font-size: 13px; }
 .room-types-showcase .room-feature-gallery { width: 100%; max-width: 600px; }
 .room-types-showcase .room-feature-main { border-radius: 14px; }
@@ -848,8 +844,132 @@ body[data-page="rooms"] .rooms-top-highlights li { min-width: 0; }
     .room-types-showcase .room-type-price strong {
         font-size: 24px;
     }
+}
 
-    .room-types-showcase .room-type-price span {
-        display: none;
-    }
+/* Keep the two management call links together inside the enquiry CTA. */
+.rooms-cta-call-links { display: grid; gap: 8px; min-width: 0; }
+.rooms-cta-call-links a { display: flex; align-items: center; justify-content: center; }
+
+/* Photo-led room cards, using the existing type family and slideshow controls. */
+.room-types-showcase .room-type-row.room-type-editorial {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 32px;
+    padding: 26px;
+    border: 1px solid #f2cfd8;
+    border-radius: 26px;
+    background: linear-gradient(120deg, #fff7f7, #fffafb);
+    box-shadow: 0 10px 28px #a3234c0d;
+}
+.room-types-showcase .room-type-editorial .room-feature-gallery {
+    width: calc(100% - 32px);
+    max-width: none;
+    margin-block: 16px;
+    align-self: center;
+    justify-self: center;
+}
+.room-types-showcase .room-type-editorial .room-feature-main {
+    aspect-ratio: 4 / 3;
+    border-radius: 18px;
+}
+.room-types-showcase .room-type-editorial .room-type-details {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-self: center;
+    align-items: stretch;
+    gap: 16px;
+}
+body[data-page="rooms"] .room-type-editorial .room-type-details h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.room-types-showcase .room-type-editorial .room-type-kicker {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 9px;
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: #fbdde7;
+    color: #881337;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.room-types-showcase .room-type-editorial .room-type-kicker > i { font-size: 17px; }
+.room-types-showcase .room-type-editorial .room-type-description { margin: 0; font-size: 14px; line-height: 1.6; }
+.room-types-showcase .room-type-editorial .room-type-facts { gap: 0; margin: 6px 0; }
+.room-types-showcase .room-type-editorial .room-type-facts li {
+    min-width: 0;
+    min-height: 64px;
+    gap: 10px;
+    padding: 4px 12px;
+    border-radius: 0;
+    background: transparent;
+}
+.room-types-showcase .room-type-editorial .room-type-facts li:first-child { padding-left: 0; }
+.room-types-showcase .room-type-editorial .room-type-facts li + li { border-left: 1px solid #efd2d9; }
+.room-types-showcase .room-type-editorial .room-type-facts i {
+    display: grid;
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border-radius: 13px;
+    background: #fce3e7;
+    font-size: 22px;
+}
+.room-types-showcase .room-type-editorial .room-type-facts strong { display: block; color: #0f172a; font-size: 14px; font-weight: 600; line-height: 1.4; }
+.room-types-showcase .room-type-editorial .room-type-facts small { display: block; margin-top: 4px; color: #64748b; font-size: 12px; line-height: 1.4; }
+.room-types-showcase .room-type-editorial .room-type-price { margin: 0; padding-top: 18px; border-top: 1px solid #efd2d9; }
+.room-types-showcase .room-type-editorial .room-type-price strong { font-size: 22px; }
+.room-types-showcase .room-type-editorial .room-type-actions { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 14px; margin: 4px 0 0; }
+.room-types-showcase .room-type-editorial .room-type-actions a { min-height: 48px; padding: 12px 14px; font-size: 14px; }
+.room-types-showcase .room-type-editorial .room-type-enquire-link { border-color: #a3234c; background: #a3234c; color: #fff; }
+.room-types-showcase .room-type-editorial .room-type-enquire-link:hover { background: #881337; }
+.room-types-showcase .room-type-editorial .room-type-gallery-link { border-color: #a3234c; background: transparent; color: #a3234c; }
+.room-types-showcase .room-type-editorial .room-type-gallery-link:hover { background: #fce7ec; }
+@media (min-width: 901px) and (max-width: 1100px) {
+    .room-types-showcase .room-type-row.room-type-editorial { gap: 24px; padding: 20px; }
+    .room-types-showcase .room-type-editorial .room-type-facts li { gap: 7px; padding-inline: 8px; }
+    .room-types-showcase .room-type-editorial .room-type-facts strong { font-size: 13px; }
+    .room-types-showcase .room-type-editorial .room-type-facts small { font-size: 11px; }
+    .room-types-showcase .room-type-editorial .room-type-actions a { padding-inline: 8px; font-size: 13px; }
+}
+@media (max-width: 900px) {
+    .room-types-showcase .room-type-row.room-type-editorial { grid-template-columns: minmax(0, 1fr); gap: 22px; padding: 20px; }
+    .room-types-showcase .room-type-editorial .room-feature-main { aspect-ratio: 3 / 2; }
+}
+@media (max-width: 520px) {
+    .room-types-showcase .room-type-row.room-type-editorial { gap: 20px; padding: 14px; border-radius: 20px; }
+    body[data-page="rooms"] .room-type-editorial .room-type-details h3 { font-size: 22px; }
+    .room-types-showcase .room-type-editorial .room-type-details { gap: 14px; }
+    .room-types-showcase .room-type-editorial .room-type-facts li { flex-direction: column; align-items: flex-start; gap: 8px; padding-inline: 9px; }
+    .room-types-showcase .room-type-editorial .room-type-facts strong { font-size: 12px; }
+    .room-types-showcase .room-type-editorial .room-type-facts small { font-size: 11px; }
+    .room-types-showcase .room-type-editorial .room-type-price strong { font-size: 22px; }
+    .room-types-showcase .room-type-editorial .room-type-actions { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+}
+
+/* Slideshow indicators sit inside the existing photograph frame. */
+.room-types-showcase .room-type-editorial .room-feature-dots {
+    position: absolute;
+    z-index: 3;
+    bottom: 8px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+.room-feature-dots button { display: grid; width: 32px; height: 32px; place-items: center; border: 0; background: transparent; cursor: pointer; }
+.room-feature-dots button::after { content: ''; width: 10px; height: 10px; border: 1px solid #ffffffb3; border-radius: 50%; background: #fff1f5; box-shadow: 0 1px 4px #0002; }
+.room-feature-dots button[aria-pressed="true"]::after { border-color: #a3234c; background: #a3234c; }
+.room-feature-dots button:focus-visible { outline: 2px solid #fff; outline-offset: -2px; border-radius: 50%; }
+@media (min-width: 901px) and (max-width: 1100px) {
+    .room-types-showcase .room-type-editorial .room-type-facts i { flex-basis: 34px; width: 34px; height: 34px; font-size: 18px; }
+}
+@media (max-width: 520px) {
+    .room-types-showcase .room-type-editorial .room-type-facts i { flex-basis: 38px; width: 38px; height: 38px; font-size: 20px; }
 }

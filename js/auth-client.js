@@ -3,7 +3,7 @@ import { supabaseUrl, supabasePublishableKey } from './auth-config.js';
 let clientPromise;
 export function getAuthClient() {
   if (!supabaseUrl || !supabasePublishableKey) {
-    throw new Error('Account access is being set up. Please contact management at +91 72000 60377 for assistance.');
+    throw new Error('Account access is being set up. Please contact management at +91 72000 60377 or +91 72000 69377 for assistance.');
   }
   if (!clientPromise) {
     clientPromise = import('https://esm.sh/@supabase/supabase-js@2')

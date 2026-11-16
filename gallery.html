@@ -40,9 +40,7 @@
                     class="w-10 h-10 rounded-xl bg-teal-800 flex items-center justify-center text-white font-bold text-xl shadow-md">
                     PV</div>
                 <div class="leading-tight">
-                    <span class="block font-bold text-lg text-teal-900">PV Associates</span>
-                    <span class="block text-[10px] font-semibold tracking-wider text-slate-500">WOMEN'S PG •
-                        MUGALIVAKKAM</span>
+                    <span class="block font-bold text-lg text-teal-900">PV Associates Women's PG</span>
                 </div>
             </a>
 
@@ -56,11 +54,10 @@
             </nav>
 
             <div class="site-header-actions hidden lg:flex items-center space-x-4">
-                <a href="tel:7200060377"
-                    class="flex items-center space-x-2 text-teal-800 font-semibold text-sm hover:text-teal-700 bg-teal-50 px-4 py-2 rounded-lg border border-teal-100 transition">
-                    <i class="fa-solid fa-phone-volume text-gold-500"></i>
-                    <span>+91 72000 60377</span>
-                </a>
+                <div class="site-header-phones" role="group" aria-label="Management phone numbers">
+                    <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+                    <div><a href="tel:+917200060377" aria-label="Call primary number +91 72000 60377">+91 72000 60377</a><a href="tel:+917200069377" aria-label="Call secondary number +91 72000 69377">+91 72000 69377</a></div>
+                </div>
                 <a href="index.html#enquiry-section"
                     class="bg-teal-800 hover:bg-teal-900 text-white text-sm font-medium px-5 py-2.5 rounded-lg shadow-sm transition"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a>
             </div>
@@ -78,7 +75,7 @@
             <a href="about-us.html" class="block text-slate-700 font-medium py-1">About Us</a>
             <a href="contact.html" class="block text-slate-700 font-medium py-1">Contact</a>
         
-            <div class="site-mobile-header-actions"><a href="tel:7200060377"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span>+91 72000 60377</span></a><a href="index.html#enquiry-section"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a></div>
+            <div class="site-mobile-header-actions"><a href="tel:7200060377"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span>+91 72000 60377</span></a><a href="tel:+917200069377"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span>+91 72000 69377</span></a><a href="index.html#enquiry-section"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span>Book Visit</span></a></div>
         </div>
     </header>
 
@@ -233,12 +230,11 @@
 
     <!-- Mobile Sticky Contact Bar -->
     <div
-        class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-sage-200 px-4 py-3 flex items-center justify-between shadow-lg">
-        <a href="tel:7200060377"
-            class="flex-1 bg-sage-100 hover:bg-sage-200 text-teal-900 font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2 mr-2">
-            <i class="fa-solid fa-phone text-teal-700"></i>
-            <span>Call (+91 72000 60377)</span>
-        </a>
+        class="pv-mobile-contact-bar lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-sage-200 px-4 py-3 flex items-center justify-between shadow-lg">
+        <div class="pv-mobile-call-links" role="group" aria-label="Call management">
+            <a href="tel:+917200060377"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>+91 72000 60377</span></a>
+            <a href="tel:+917200069377"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>+91 72000 69377</span></a>
+        </div>
         <a href="https://wa.me/917200060377?text=Hi,%20I%20would%20like%20to%20enquire%20about%20PV%20Associates%20Women's%20PG%20Mugalivakkam."
             target="_blank" rel="noopener noreferrer"
             class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs py-2.5 px-3 rounded-lg text-center flex items-center justify-center space-x-2 ml-2">
