@@ -166,7 +166,7 @@ body > header.sticky .site-header-actions > a {
 body > header.sticky .site-header-phones { display: flex; flex: 0 0 auto; align-items: center; gap: 10px; padding: 2px 12px; border: 1px solid #f7d5df; border-radius: 14px; background: #fff1f5; color: var(--pv-burgundy); }
 body > header.sticky .site-header-phones > i { color: var(--pv-rose); font-size: 16px; }
 body > header.sticky .site-header-phones > div { display: grid; }
-body > header.sticky .site-header-phones a { display: inline-flex; min-height: 22px; align-items: center; font-size: 12px; font-weight: 700; line-height: 1.3; text-decoration: none; }
+body > header.sticky .site-header-phones a { display: inline-flex; min-height: 36px; align-items: center; font-size: 12px; font-weight: 700; line-height: 1.3; text-decoration: none; }
 body > header.sticky .site-header-phones a:hover { text-decoration: underline; text-underline-offset: 3px; }
 body > header.sticky .site-header-actions > a:last-child { min-width: 150px; background: var(--pv-burgundy); color: #fff; box-shadow: 0 5px 13px rgb(136 19 55 / 14%); }
 body > header.sticky .site-header-actions > a:last-child i { font-size: 17px; }
@@ -260,7 +260,7 @@ body > header.sticky a:focus-visible { outline: 2px solid var(--pv-rose); outlin
     body > header.sticky #menu-btn { display: inline-flex !important; }
     body > header.sticky #mobile-menu:not(.hidden) { display: grid !important; gap: 2px; padding: 14px clamp(20px, 5vw, 38px) 20px; box-shadow: 0 12px 20px rgb(61 11 32 / 7%); }
     body > header.sticky #mobile-menu > a { margin-block: 0; }
-    .site-mobile-header-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding-top: 12px; border-top: 1px solid var(--pv-border); }
+    .site-mobile-header-actions { display: grid; grid-template-columns: 1fr; gap: 10px; padding-top: 12px; border-top: 1px solid var(--pv-border); }
     .site-mobile-header-actions a { display: inline-flex; min-width: 0; min-height: 46px; align-items: center; justify-content: center; gap: 8px; padding: 9px 12px; border: 1px solid #f3cbd7; border-radius: 12px; background: #fff1f5; color: var(--pv-burgundy); font-size: 13px; font-weight: 700; text-decoration: none; }
     .site-mobile-header-actions a:last-child { grid-column: 1 / -1; border-color: var(--pv-burgundy); background: var(--pv-burgundy); color: #fff; }
     .site-mobile-header-actions i { flex: 0 0 auto; font-size: 15px; }
@@ -290,3 +290,10 @@ body > header.sticky a:focus-visible { outline: 2px solid var(--pv-rose); outlin
 .pv-mobile-call-links a:hover { background: #ffe7ef; }
 .pv-mobile-contact-bar > a { min-height: 50px; margin: 0; padding-inline: 6px; font-size: 11px; }
 .pv-mobile-call-links a:focus-visible { outline: 2px solid var(--pv-rose); outline-offset: 2px; }
+
+/* Keep the mobile brand on two intentional lines. */
+body > header.sticky .site-brand-mobile-break { display: none; }
+@media (max-width: 767px) {
+    body > header.sticky .site-brand-mobile-break { display: block; }
+    body > header.sticky .site-brand > div:last-child > span:first-child { white-space: nowrap; }
+}
