@@ -16,6 +16,8 @@
       const item = images[active];
       mainLink.href = item.src;
       mainLink.setAttribute('aria-label', `Open ${item.alt.toLowerCase()}`);
+      mainImage.srcset = item.srcset || '';
+      if (item.sizes) mainImage.sizes = item.sizes;
       mainImage.src = item.src;
       mainImage.alt = item.alt;
       if (count) count.textContent = `${active + 1} / ${images.length}`;

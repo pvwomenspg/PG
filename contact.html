@@ -5,28 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | PV Associates Women's PG</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
-                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
-                        gold: { 500: '#d97706', 600: '#b45309' }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
     <script src="js/header.js" defer></script>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact.min.css">
 </head>
 
 <body class="site-page bg-sage-50 text-slate-800 font-sans antialiased" data-page="contact">
@@ -80,7 +65,7 @@
 
     <main class="contact-content">
         <section class="contact-hero" aria-labelledby="contact-hero-heading">
-            <div class="contact-hero-photo" aria-hidden="true"><img src="assets/property-01.webp" alt="" width="1204" height="1599" fetchpriority="high" decoding="async"></div>
+            <div class="contact-hero-photo" aria-hidden="true"><img src="assets/property-01.webp" alt="" width="1204" height="1599" fetchpriority="high" decoding="async" srcset="assets/optimized/property-01-w480.webp 480w, assets/optimized/property-01-w800.webp 800w, assets/optimized/property-01-w1200.webp 1200w, assets/optimized/property-01-w1204.webp 1204w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></div>
             <div class="site-container contact-hero-inner">
                 <div class="contact-hero-copy">
                     <p class="contact-eyebrow"><i class="fa-regular fa-address-card" aria-hidden="true"></i> Contact Us</p>

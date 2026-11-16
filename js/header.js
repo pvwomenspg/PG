@@ -38,7 +38,7 @@
   if (!links.length || !HTMLDialogElement.prototype.showModal) return;
   const css = document.createElement('link');
   css.rel = 'stylesheet';
-  css.href = new URL('../css/visit-booking.css', document.currentScript.src).href;
+  css.href = new URL('../css/visit-booking.min.css', document.currentScript.src).href;
   document.head.append(css);
   const accountModuleUrl = new URL('auth-client.js', document.currentScript.src).href;
   const bookingModuleUrl = new URL('booking-store.js', document.currentScript.src).href;

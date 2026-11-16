@@ -5,30 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooms &amp; Tariff | PV Associates Women's PG</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
-                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
-                        gold: { 500: '#d97706', 600: '#b45309' }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/photos.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/photos.min.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
     <script src="js/header.js" defer></script>
-    <link rel="stylesheet" href="css/rooms.css">
-    <link rel="stylesheet" href="css/room-gallery.css">
+    <link rel="stylesheet" href="css/rooms.min.css">
+    <link rel="stylesheet" href="css/room-gallery.min.css">
 </head>
 
 <body class="bg-sage-50 text-slate-800 font-sans antialiased pb-20 md:pb-0" data-page="rooms">
@@ -108,8 +93,8 @@
                     <p class="rooms-top-opening">Opening on 8 November 2026</p>
                 </div>
                 <div class="rooms-top-photo">
-                    <img src="assets/rooms-hero-ai.jpg" alt="AI-generated illustration of a comfortable furnished twin-sharing bedroom"
-                        width="800" height="600" fetchpriority="high" decoding="async">
+                    <img src="assets/optimized/rooms-hero-ai.webp" alt="AI-generated illustration of a comfortable furnished twin-sharing bedroom"
+                        width="800" height="600" fetchpriority="high" decoding="async" srcset="assets/optimized/rooms-hero-ai-w480.webp 480w, assets/optimized/rooms-hero-ai-w800.webp 800w, assets/optimized/rooms-hero-ai-w1200.webp 1200w, assets/optimized/rooms-hero-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px">
                     <div class="rooms-top-photo-note"><span class="rooms-top-stars" aria-hidden="true">✦ ✦
                             ✦</span><strong>Comfortable &amp; secure</strong><span>Furnished AC accommodation in
                             Mugalivakkam</span></div>
@@ -151,14 +136,14 @@
             <div class="room-type-list">
                 <article class="room-type-row room-type-editorial" aria-labelledby="twin-room-heading">
                     <div class="room-feature-gallery" data-room-carousel
-                        data-gallery-images='[{"src":"assets/two-1.webp","alt":"Twin-sharing room with two beds"},{"src":"assets/two-2.webp","alt":"Another view of the twin-sharing room"},{"src":"assets/two-3.webp","alt":"Twin-sharing room from another angle"},{"src":"assets/bathroom.webp","alt":"Attached bathroom"}]'
+                        data-gallery-images='[{"src":"assets/two-1.webp","alt":"Twin-sharing room with two beds","srcset":"assets/optimized/two-1-w480.webp 480w, assets/optimized/two-1-w796.webp 796w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/two-2.webp","alt":"Another view of the twin-sharing room","srcset":"assets/optimized/two-2-w480.webp 480w, assets/optimized/two-2-w800.webp 800w, assets/optimized/two-2-w1200.webp 1200w, assets/optimized/two-2-w1600.webp 1600w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/two-3.webp","alt":"Twin-sharing room from another angle","srcset":"assets/optimized/two-3-w480.webp 480w, assets/optimized/two-3-w796.webp 796w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/bathroom.webp","alt":"Attached bathroom","srcset":"assets/optimized/bathroom-w480.webp 480w, assets/optimized/bathroom-w800.webp 800w, assets/optimized/bathroom-w1200.webp 1200w, assets/optimized/bathroom-w1600.webp 1600w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"}]'
                         role="group" tabindex="0"
                         aria-label="Twin-sharing room photo gallery. Use left and right arrow keys to change photos.">
                         <div class="room-feature-main">
                             <a class="room-feature-main-link" href="assets/two-1.webp" data-photo
                                 aria-label="Open twin-sharing room photo 1"><img src="assets/two-1.webp"
                                     alt="Twin-sharing room with two beds" width="800" height="600" loading="lazy"
-                                    decoding="async" data-gallery-main></a>
+                                    decoding="async" data-gallery-main srcset="assets/optimized/two-1-w480.webp 480w, assets/optimized/two-1-w796.webp 796w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></a>
                             <button class="room-feature-step room-feature-prev" type="button" data-gallery-step="-1"
                                 aria-label="Previous twin-sharing room photo"><i class="fa-solid fa-chevron-left"
                                     aria-hidden="true"></i></button>
@@ -190,14 +175,14 @@
                 </article>
                 <article class="room-type-row room-type-editorial" aria-labelledby="three-room-heading">
                     <div class="room-feature-gallery" data-room-carousel
-                        data-gallery-images='[{"src":"assets/three-1.webp","alt":"Three-sharing room with three beds"},{"src":"assets/three-2.webp","alt":"Another view of the three-sharing room"},{"src":"assets/three-3.webp","alt":"Three-sharing room from another angle"},{"src":"assets/bathroom.webp","alt":"Attached bathroom"}]'
+                        data-gallery-images='[{"src":"assets/three-1.webp","alt":"Three-sharing room with three beds","srcset":"assets/optimized/three-1-w480.webp 480w, assets/optimized/three-1-w800.webp 800w, assets/optimized/three-1-w1200.webp 1200w, assets/optimized/three-1-w1600.webp 1600w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/three-2.webp","alt":"Another view of the three-sharing room","srcset":"assets/optimized/three-2-w480.webp 480w, assets/optimized/three-2-w796.webp 796w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/three-3.webp","alt":"Three-sharing room from another angle","srcset":"assets/optimized/three-3-w451.webp 451w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"},{"src":"assets/bathroom.webp","alt":"Attached bathroom","srcset":"assets/optimized/bathroom-w480.webp 480w, assets/optimized/bathroom-w800.webp 800w, assets/optimized/bathroom-w1200.webp 1200w, assets/optimized/bathroom-w1600.webp 1600w","sizes":"(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"}]'
                         role="group" tabindex="0"
                         aria-label="Three-sharing room photo gallery. Use left and right arrow keys to change photos.">
                         <div class="room-feature-main">
                             <a class="room-feature-main-link" href="assets/three-1.webp" data-photo
                                 aria-label="Open three-sharing room photo 1"><img src="assets/three-1.webp"
                                     alt="Three-sharing room with three beds" width="800" height="600" loading="lazy"
-                                    decoding="async" data-gallery-main></a>
+                                    decoding="async" data-gallery-main srcset="assets/optimized/three-1-w480.webp 480w, assets/optimized/three-1-w800.webp 800w, assets/optimized/three-1-w1200.webp 1200w, assets/optimized/three-1-w1600.webp 1600w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></a>
                             <button class="room-feature-step room-feature-prev" type="button" data-gallery-step="-1"
                                 aria-label="Previous three-sharing room photo"><i class="fa-solid fa-chevron-left"
                                     aria-hidden="true"></i></button>

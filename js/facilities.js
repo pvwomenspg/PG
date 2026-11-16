@@ -3,7 +3,7 @@
   if (!gallery) return;
   const image = gallery.querySelector('img');
   const buttons = [...gallery.querySelectorAll('[data-slide]')];
-  const photos = ['assets/facilities-reference-room.png', 'assets/facilities-reference-room.png', 'assets/facilities-reference-room.png'];
+  const photos = ['assets/optimized/facilities-reference-room.webp', 'assets/optimized/facilities-reference-room.webp', 'assets/optimized/facilities-reference-room.webp'];
   let current = 0;
   const show = index => {
     current = (index + photos.length) % photos.length;

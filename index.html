@@ -5,28 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PV Associates Women's PG | Mugalivakkam, Chennai</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
-                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
-                        gold: { 500: '#d97706', 600: '#b45309' }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/photos.css">
-    <link rel="stylesheet" href="css/site.css?v=compact-navbar-20261107">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
+    <link rel="stylesheet" href="css/home.min.css">
     <script src="js/header.js" defer></script>
 </head>
 
@@ -108,8 +92,8 @@
             </div>
             <div class="home-hero-photo">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="assets/building-desktop-name-corrected.png">
-                    <img src="assets/building-mobile-name-corrected.png" alt="PV Associates building and entrance in Mugalivakkam" width="1024" height="1536" fetchpriority="high" decoding="async">
+                    <source media="(min-width: 768px)" srcset="assets/optimized/building-desktop-name-corrected-w480.webp 480w, assets/optimized/building-desktop-name-corrected-w800.webp 800w, assets/optimized/building-desktop-name-corrected-w1200.webp 1200w, assets/optimized/building-desktop-name-corrected-w1600.webp 1600w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px">
+                    <img src="assets/optimized/building-mobile-name-corrected.webp" alt="PV Associates building and entrance in Mugalivakkam" width="1024" height="1536" fetchpriority="high" decoding="async" srcset="assets/optimized/building-mobile-name-corrected-w480.webp 480w, assets/optimized/building-mobile-name-corrected-w800.webp 800w, assets/optimized/building-mobile-name-corrected-w1024.webp 1024w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px">
                 </picture>
             </div>
         </div>
@@ -118,7 +102,7 @@
     <section class="home-intro" aria-labelledby="about-heading">
         <div class="home-intro-inner home-page-container">
             <figure class="home-intro-figure">
-                <img src="assets/home-about-ai.jpg" alt="AI-generated illustration of a welcoming twin-sharing bedroom; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async">
+                <img src="assets/optimized/home-about-ai.webp" alt="AI-generated illustration of a welcoming twin-sharing bedroom; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async" srcset="assets/optimized/home-about-ai-w480.webp 480w, assets/optimized/home-about-ai-w800.webp 800w, assets/optimized/home-about-ai-w1200.webp 1200w, assets/optimized/home-about-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px">
                 <figcaption>A look inside your everyday space.</figcaption>
             </figure>
             <div class="home-intro-copy">
@@ -154,7 +138,7 @@
     <!-- Compact introduction to everyday living -->
     <section class="home-lifestyle-facilities" aria-labelledby="home-lifestyle-facilities-heading">
         <div class="home-lifestyle-container home-lifestyle-layout home-page-container">
-            <figure class="home-lifestyle-photo"><img src="assets/home-dining-ai.jpg" alt="AI-generated illustration of a clean shared dining hall; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async"></figure>
+            <figure class="home-lifestyle-photo"><img src="assets/optimized/home-dining-ai.webp" alt="AI-generated illustration of a clean shared dining hall; not an actual property photograph" width="800" height="600" loading="lazy" decoding="async" srcset="assets/optimized/home-dining-ai-w480.webp 480w, assets/optimized/home-dining-ai-w800.webp 800w, assets/optimized/home-dining-ai-w1200.webp 1200w, assets/optimized/home-dining-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
             <div class="home-lifestyle-copy">
                 <p class="home-lifestyle-eyebrow">Everyday living</p>
                 <h2 id="home-lifestyle-facilities-heading">Thoughtfully Designed for Everyday Living.</h2>
@@ -460,7 +444,6 @@
             window.open(`https://wa.me/917200060377?text=${encodeURIComponent(message)}`, '_blank');
         }
     </script>
-    <script src="js/photos.js"></script>
 </body>
 
 </html>

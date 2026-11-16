@@ -5,29 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | PV Associates Women's PG</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
-                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
-                        gold: { 500: '#d97706', 600: '#b45309' }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/photos.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
     <script src="js/header.js" defer></script>
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/about.min.css">
 </head>
 
 <body class="site-page bg-sage-50 text-slate-800 font-sans antialiased" data-page="about">
@@ -98,9 +82,9 @@
                             in Chennai</strong></li>
                 </ul>
             </div>
-            <figure class="about-hero-photo"><img src="assets/about-hero-ai.jpg"
+            <figure class="about-hero-photo"><img src="assets/optimized/about-hero-ai.webp"
                     alt="AI-generated illustration of a welcoming residential entrance" width="800" height="600"
-                    fetchpriority="high" decoding="async"></figure>
+                    fetchpriority="high" decoding="async" srcset="assets/optimized/about-hero-ai-w480.webp 480w, assets/optimized/about-hero-ai-w800.webp 800w, assets/optimized/about-hero-ai-w1200.webp 1200w, assets/optimized/about-hero-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
         </div>
         <svg class="about-hero-wave" viewBox="0 0 1440 94" preserveAspectRatio="none" aria-hidden="true">
             <path d="M0 45 C210 -15 375 28 570 51 C875 100 1145 93 1440 25 V94 H0Z" fill="#fff5f6" stroke="#fff"
@@ -111,9 +95,9 @@
 
     <section class="about-introduction" aria-labelledby="about-introduction-heading">
         <div class="site-container about-story-layout">
-            <figure class="about-story-photo"><img src="assets/about-introduction-ai.jpg"
+            <figure class="about-story-photo"><img src="assets/optimized/about-introduction-ai.webp"
                     alt="AI-generated illustration of a warm shared dining nook" width="800" height="600" loading="lazy"
-                    decoding="async"></figure>
+                    decoding="async" srcset="assets/optimized/about-introduction-ai-w480.webp 480w, assets/optimized/about-introduction-ai-w800.webp 800w, assets/optimized/about-introduction-ai-w1200.webp 1200w, assets/optimized/about-introduction-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
             <div class="about-story-copy">
                 <p class="about-story-eyebrow">WHO WE ARE</p>
                 <h2 id="about-introduction-heading">About PV Associates</h2>
@@ -166,18 +150,18 @@
                             &amp; Supportive Stay</strong></li>
                 </ul>
             </div>
-            <figure class="about-story-photo"><img src="assets/about-commitment-ai.jpg"
+            <figure class="about-story-photo"><img src="assets/optimized/about-commitment-ai.webp"
                     alt="AI-generated illustration of a clean, organized study space" width="800" height="600"
-                    loading="lazy" decoding="async"></figure>
+                    loading="lazy" decoding="async" srcset="assets/optimized/about-commitment-ai-w480.webp 480w, assets/optimized/about-commitment-ai-w800.webp 800w, assets/optimized/about-commitment-ai-w1200.webp 1200w, assets/optimized/about-commitment-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
         </div>
     </section>
 
     <section class="about-property-location" aria-labelledby="about-property-heading">
         <div class="site-container">
             <div class="about-story-layout">
-                <figure class="about-story-photo"><img src="assets/about-location-ai.jpg"
+                <figure class="about-story-photo"><img src="assets/optimized/about-location-ai.webp"
                         alt="AI-generated illustration of a leafy residential neighbourhood" width="800" height="600"
-                        loading="lazy" decoding="async"></figure>
+                        loading="lazy" decoding="async" srcset="assets/optimized/about-location-ai-w480.webp 480w, assets/optimized/about-location-ai-w800.webp 800w, assets/optimized/about-location-ai-w1200.webp 1200w, assets/optimized/about-location-ai-w1448.webp 1448w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
                 <div class="about-story-copy about-property-copy">
                     <p class="about-story-eyebrow">OUR PROPERTY &amp; LOCATION</p>
                     <h2 id="about-property-heading">Stay Connected to Chennai's IT Hubs</h2>
@@ -344,7 +328,6 @@
         const mobileMenu = document.getElementById('mobile-menu');
         menuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
     </script>
-    <script src="js/photos.js"></script>
 </body>
 
 </html>

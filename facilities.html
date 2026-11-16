@@ -5,28 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facilities & Amenities | PV Associates Women's PG</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        teal: { 50: '#fff1f3', 100: '#fce4e8', 200: '#f4cbd5', 300: '#e9aabd', 600: '#bb3e60', 700: '#a3234c', 800: '#861b3e', 900: '#54132a', 950: '#310916' },
-                        sage: { 50: '#fff8f7', 100: '#f6e9e8', 200: '#ead6d5', 600: '#926d73', 700: '#705258' },
-                        gold: { 500: '#d97706', 600: '#b45309' }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
     <script src="js/header.js" defer></script>
-    <link rel="stylesheet" href="css/facilities.css">
+    <link rel="stylesheet" href="css/facilities.min.css">
 </head>
 
 <body class="site-page bg-sage-50 text-slate-800 font-sans antialiased" data-page="facilities">
@@ -80,7 +65,7 @@
 
     <section class="facilities-hero" aria-labelledby="facilities-hero-heading">
         <div class="facilities-hero-media" aria-hidden="true">
-            <img src="assets/facilities-hero-reference.jpg" alt="" width="590" height="447" fetchpriority="high" decoding="async">
+            <img src="assets/optimized/facilities-hero-reference.webp" alt="" width="590" height="447" fetchpriority="high" decoding="async" srcset="assets/optimized/facilities-hero-reference-w480.webp 480w, assets/optimized/facilities-hero-reference-w590.webp 590w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px">
         </div>
         <div class="site-container facilities-hero-inner">
             <div class="facilities-hero-copy">
@@ -141,14 +126,14 @@
                 <div class="facilities-photo-actions"><a class="facilities-photo-link" href="gallery.html?category=rooms"><i class="fa-regular fa-images" aria-hidden="true"></i><span>Explore Room Photos</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
             </div>
             <div class="phase-two-room-gallery" data-facilities-carousel>
-                <div class="phase-two-room-frame"><img src="assets/facilities-reference-room.png" alt="Bedroom photograph from the supplied facilities design reference" width="800" height="600" loading="lazy"></div>
+                <div class="phase-two-room-frame"><img src="assets/optimized/facilities-reference-room.webp" alt="Bedroom photograph from the supplied facilities design reference" width="800" height="600" loading="lazy" srcset="assets/optimized/facilities-reference-room-w480.webp 480w, assets/optimized/facilities-reference-room-w562.webp 562w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></div>
                 <div class="phase-two-dots" role="group" aria-label="Choose room photograph"><button type="button" data-slide="0" aria-label="Show room photograph 1" aria-pressed="true"></button><button type="button" data-slide="1" aria-label="Show room photograph 2" aria-pressed="false"></button><button type="button" data-slide="2" aria-label="Show room photograph 3" aria-pressed="false"></button></div>
             </div>
         </div>
     </section>
     <section id="food-kitchen-facilities" class="facility-detail-anchor phase-two-food">
         <div class="site-container phase-two-layout">
-            <div class="phase-two-dining"><img src="assets/facilities-reference-dining.png" alt="Dining hall photograph from the supplied facilities design reference" width="800" height="600" loading="lazy"></div>
+            <div class="phase-two-dining"><img src="assets/optimized/facilities-reference-dining.webp" alt="Dining hall photograph from the supplied facilities design reference" width="800" height="600" loading="lazy" srcset="assets/optimized/facilities-reference-dining-w480.webp 480w, assets/optimized/facilities-reference-dining-w499.webp 499w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></div>
             <div class="phase-two-copy">
                 <p class="phase-two-eyebrow"><i class="fa-solid fa-utensils" aria-hidden="true"></i> FOOD &amp; KITCHEN</p>
                 <h2>Homely &amp; Hygienic Food Everyday</h2>
@@ -169,12 +154,12 @@
 <div class="facilities-three-card"><i class="fa-solid fa-tv" aria-hidden="true"></i><h3>TV, fridge &amp; sofa (shared areas)</h3></div></div>
                 <div class="facilities-photo-actions"><a class="facilities-photo-link" href="gallery.html?category=common-areas"><i class="fa-regular fa-images" aria-hidden="true"></i><span>Explore Common Area Photos</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
             </div>
-            <figure class="facilities-three-photo facilities-three-photo-right"><img src="assets/facilities-shared-reference.jpg" alt="Shared living room shown in the supplied facilities design reference" width="532" height="360" loading="lazy" decoding="async"></figure>
+            <figure class="facilities-three-photo facilities-three-photo-right"><img src="assets/optimized/facilities-shared-reference.webp" alt="Shared living room shown in the supplied facilities design reference" width="532" height="360" loading="lazy" decoding="async" srcset="assets/optimized/facilities-shared-reference-w480.webp 480w, assets/optimized/facilities-shared-reference-w532.webp 532w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
         </div>
     </section>
     <section id="safety-support-facilities" class="facility-detail-anchor facilities-three-safety">
         <div class="site-container facilities-three-layout">
-            <figure class="facilities-three-photo facilities-three-photo-left"><img src="assets/facilities-security-reference.jpg" alt="CCTV camera shown in the supplied facilities design reference" width="418" height="435" loading="lazy" decoding="async"></figure>
+            <figure class="facilities-three-photo facilities-three-photo-left"><img src="assets/optimized/facilities-security-reference.webp" alt="CCTV camera shown in the supplied facilities design reference" width="418" height="435" loading="lazy" decoding="async" srcset="assets/optimized/facilities-security-reference-w418.webp 418w" sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1279px) 60vw, 720px"></figure>
             <div class="facilities-three-copy">
                 <p class="facilities-three-eyebrow"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> SAFETY, SUPPORT &amp; UTILITIES</p>
                 <h2>A Safe and Well-Supported Living Environment</h2>
